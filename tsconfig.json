@@ -3,7 +3,7 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": false,
+    "allowJs": true,
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
@@ -17,7 +17,7 @@
     "jsxImportSource": "@emotion/react",
     "types": ["unplugin-icons/types/react"],
     "noImplicitAny": false,
-    "skipLibCheck": true    
+    "skipLibCheck": true 
   },
   "include": ["src", "types"],
   "references": [{ "path": "./tsconfig.node.json" }]
