@@ -94,6 +94,7 @@ export default function App() {
             <Title>{title}</Title>
             <span>{'}'}</span>
           </a>
+
           <Nav>
             <NavLinkItem to="/posts">
               <IconPosts tw="inline lg:hidden" />
