@@ -100,10 +100,11 @@ export default function App() {
               <IconPosts tw="inline lg:hidden" />
               <span tw="hidden lg:inline">{t('tab.posts')}</span>
             </NavLinkItem>
-            <NavLinkItem to="/snippets">
+            {/*<NavLinkItem to="/snippets">
               <IconSnippets tw="inline lg:hidden" />
               <span tw="hidden lg:inline">{t('tab.snippets')}</span>
             </NavLinkItem>
+            */}
             <NavLinkItem to="/projects">
               <IconProjects tw="inline lg:hidden" />
               <span tw="hidden lg:inline">{t('tab.projects')}</span>
