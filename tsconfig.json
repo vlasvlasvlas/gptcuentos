@@ -17,7 +17,10 @@
     "jsxImportSource": "@emotion/react",
     "types": ["unplugin-icons/types/react"],
     "noImplicitAny": false,
-    "skipLibCheck": true 
+    "skipLibCheck": true,
+    "paths": {
+      "~/*": ["src/*"]
+    }
   },
   "include": ["src", "types"],
   "references": [{ "path": "./tsconfig.node.json" }]
