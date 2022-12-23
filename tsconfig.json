@@ -20,6 +20,5 @@
     "skipLibCheck": true
   },
   "include": ["src", "types"],
-  "references": [{ "path": "./tsconfig.node.json" }],
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
